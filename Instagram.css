@@ -1,0 +1,62 @@
+.instagram {
+  padding: 80px 10%;
+  background: #fff8fb;
+  text-align: center;
+}
+
+.instagram h2 {
+  font-size: 40px;
+  color: #d9468f;
+  margin-bottom: 10px;
+}
+
+.instagram p {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.instagram-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.instagram-grid img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: 0.4s;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.instagram-grid img:hover {
+  transform: scale(1.05);
+}
+
+.instagram-btn {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 14px 35px;
+  background: #d9468f;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.instagram-btn:hover {
+  background: #b83280;
+}
+.success-message {
+  background: #d4edda;
+  color: #155724;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}

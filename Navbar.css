@@ -1,0 +1,40 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: rgba(0, 0, 0, 0.15);   /* Transparent */
+  backdrop-filter: blur(12px);       /* Glass effect */
+  -webkit-backdrop-filter: blur(12px);
+
+  border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+
+  z-index: 1000;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 18px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #D4AF37;
+}
+
+.book-btn {
+  background: linear-gradient(135deg, #D4AF37, #F8E7A1);
+  color: #000;
+  padding: 12px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
