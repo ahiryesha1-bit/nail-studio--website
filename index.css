@@ -1,0 +1,41 @@
+body{
+    background:#fff7fb;
+}
+
+/* Luxury soft background for sections */
+
+.services,
+.gallery,
+.instagram{
+    background:
+    radial-gradient(circle at top left, #ffe0ef, transparent 35%),
+    radial-gradient(circle at bottom right, #ffd6e8, transparent 35%),
+    #fff8fc;
+}
+
+
+.about,
+.contact{
+    background:
+    linear-gradient(135deg,#fff,#fff1f7);
+}
+
+
+.booking{
+    background:
+    radial-gradient(circle,#ffdbea,#fff8fc);
+}
+
+
+.testimonials{
+    background:
+    linear-gradient(180deg,#fff7fb,#ffffff);
+}
+.gallery-card,
+.service-card,
+.testimonial-card,
+.info-box,
+.booking-container{
+    backdrop-filter:blur(10px);
+    background:rgba(255,255,255,0.85);
+}
