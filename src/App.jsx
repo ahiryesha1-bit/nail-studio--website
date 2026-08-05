@@ -7,7 +7,7 @@ import About from "./components/About";
 import Gallery from "./components/Gallery";
 import PriceList from "./components/PriceList";
 import Testimonials from "./components/Testimonials";
-import Instagram from "./components/Instagram";
+import Instagram from "./components/instagram";
 import FAQ from "./components/FAQ";
 import Location from "./components/Location";
 import Contact from "./components/contact";
@@ -25,7 +25,7 @@ function App() {
      <Gallery />
       <PriceList />
       <Testimonials />
-      <Instagram />
+      <instagram />
       <FAQ />
       <Location />
       <Contact />
