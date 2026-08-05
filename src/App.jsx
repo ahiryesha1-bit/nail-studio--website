@@ -28,7 +28,7 @@ function App() {
       <instagram />
       <FAQ />
       <Location />
-      <Contact />
+      <contact />
       <Booking />
       <Footer />
     </>
