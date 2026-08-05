@@ -1,4 +1,4 @@
-import "./Instagram.css";
+import "./instagram.css";
 
 const posts = [
   {
@@ -19,7 +19,7 @@ const posts = [
   
 ];
 
-function Instagram() {
+function instagram() {
   return (
     <section className="instagram" id="instagram">
       <h2>Instagram Gallery</h2>
@@ -43,4 +43,4 @@ function Instagram() {
   );
 }
 
-export default Instagram;
+export default instagram;
