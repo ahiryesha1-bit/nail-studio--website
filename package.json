@@ -1,5 +1,5 @@
 {
-  "name": "nail-studio",
+  "name": "nail-studio--website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -24,13 +24,13 @@
   "main": "eslint.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ahiryesha1-bit/nail-studio-website.git"
+    "url": "git+https://github.com/ahiryesha1-bit/nail-studio--website.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ahiryesha1-bit/nail-studio-website/issues"
+    "url": "https://github.com/ahiryesha1-bit/nail-studio--website/issues"
   },
-  "homepage": "https://github.com/ahiryesha1-bit/nail-studio-website#readme"
+  "homepage": "https://github.com/ahiryesha1-bit/nail-studio--website#readme"
 }
